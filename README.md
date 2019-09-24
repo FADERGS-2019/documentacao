@@ -130,5 +130,6 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 **Qual as dores da persona**: *Problemas com a gestão de seu négocio que esta iniciando* <br />
 
 ### [Fluxograma de processos](/docs/fluxograma_processos.md)
+### [Diagrama conceitual](/docs/diagrama_conceitual.md)
 
 ### [Trello](https://trello.com/b/oLR8NrvE/esii)
