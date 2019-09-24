@@ -18,11 +18,11 @@ Outra possível integração do sistema seria com o Pagseguro para fazer o pagam
 ### Informações
 Os dados que o sistema manipulará será dados básicos do usuário, e dados estáticos da pizzaria
 
-###### Não faz parte do escopo do projeto
-*Gerenciamento de cadastros*: Não será necessário visando a UX do usuário
-*Financeiro*: Não será feito devido a falta de tempo
-*Relatórios*: Não serão implementados devido a falta de tempo
-*Estoque*: Não será implementado devido a falta de tempo
+### Não faz parte do escopo do projeto
+*Gerenciamento de cadastros*: Não será necessário visando a UX do usuário <br />
+*Financeiro*: Não será feito devido a falta de tempo <br />
+*Relatórios*: Não serão implementados devido a falta de tempo <br />
+*Estoque*: Não será implementado devido a falta de tempo <br />
 
 # Escopo
 ### Público-alvo:
@@ -67,7 +67,7 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 
 # Requisitos
 
-## Requisitos funcionais
+### Requisitos funcionais
  - **RF01**: `Importante` - Escolher combos
  - **RF02**: `Importante` - Escolher quantidade de combos
  - **RF03**: `Importante` - Escolher sabores dos combos
@@ -87,7 +87,7 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
  - **RF17**: `Importante` - Remover pedido
 
 
-## Requisitos não funcionais
+### Requisitos não funcionais
  - **RNF01**: `Desejável` - Site bonito e fluído
  - **RNF02**: `Essencial` - E-mail de confimação de pedido para o cliente
  - **RNF03**: `Importante` - Ter o site responsivo
@@ -95,7 +95,7 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 
 # Users stories e Personas
 
-## Users stories(US)
+### Users stories(US)
 - `US1` - Como cliente José eu quero escolher os sabores e os adicionais para fazer meu pedido
 - `US2` - Como cliente José eu quero adicionar bebidas ao meu pedido para complementa-lo
 - `US3` - Como cliente José eu quero escolher a quantidade de pizzas e o sabor de cada uma delas para adicionar ao meu pedido
@@ -104,7 +104,7 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 - `US6` - Como cliente José eu quero escolher um combo e a quantidade de combos para iniciar meu pedido
 - `US7` - Como usuário Corleone eu gostaria de visualizar os pedidos pendentes para faze-los
 
-## Personas
+### Personas
 **Nome**: *Jose Santos* <br />
 **Escolaridade**: *PhD* <br />
 **Idade**: *34* <br />
@@ -129,4 +129,4 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 **Em quais redes sociais ele interage**: *Facebook, Instagram* <br />
 **Qual as dores da persona**: *Problemas com a gestão de seu négocio que esta iniciando* <br />
 
-## [Trello](https://trello.com/b/oLR8NrvE/esii)
+### [Trello](https://trello.com/b/oLR8NrvE/esii)
