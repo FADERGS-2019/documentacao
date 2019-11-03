@@ -20,5 +20,5 @@
 ![Confirmação do pedido](images/enviar_email.png)
 
 ## Gerenciar pedidos
-### Após a conclusão do pedido, o mesmo também irá ser adicionado ao portal do dono da pizzaria o permitindo remove-lo após a conclusão do mesmo<br />
+### Após a conclusão do pedido, o mesmo também irá ser adicionado ao portal do dono da pizzaria o permitindo removê-lo após a conclusão do mesmo<br />
 ![Gerenciamento de pedido](images/gerenciar_pedido.png)
