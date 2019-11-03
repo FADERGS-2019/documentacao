@@ -14,7 +14,7 @@ e este projeto segue o [Semantic Versioning](https://semver.org/spec/v2.0.0.html
 
 ### Changed
 - Itens foram descritos como textos conforme sugerido
-- Foi alterada a viabilidade tecnica informando os recursos necessários
+- Foi alterada a viabilidade técnica informando os recursos necessários
 
 ## [0.1.0] - 04-09-2019
 ### Added
