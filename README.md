@@ -1,22 +1,22 @@
 # Visão geral
 ### Processo que o novo sistema poderá apoiar
-O sistema auxiliará na venda de pizzas e organizaçãoo dos pedidos, agilizando o processo e criando uma redução no gastos da empresa com pessoal
+O sistema auxiliará na venda de pizzas e organização dos pedidos, agilizando o processo e criando uma redução no gastos da empresa com pessoal
 
 ### Objetivos
 Criar um ambiente agradável e de fácil uso para o usuário evitando a necessidade de uma ligação para a pizzaria
 
 ### Necessidades
-É necessário um serviço de hospedagem com recursos básicos para o desenvolvimento e teste. O mesmo ambiente poderá ser usado para produção visto que a ferramenta possuíra um código pequeno e funcionalidades que nao necessitam necessariamente de um banco de dados
+É necessário um serviço de hospedagem com recursos básicos para o desenvolvimento e teste. O mesmo ambiente poderá ser usado para produção visto que a ferramenta possuíra um código pequeno e funcionalidades que não necessitam necessariamente de um banco de dados
 
 ### Restrições/limitações
-A ferramenta web não disponibilizará uma maneira de efetuar pagamentos online. Mediante este problema que caso viesse a ser uma real necessidade do sistema, utilizaríamos uma API do Pagseguro como solução
+A ferramenta web não disponibilizará uma maneira de efetuar pagamentos online. Mediante este problema que caso viesse a ser uma real necessidade do sistema, utilizaremos uma API do Pagseguro como solução
 
 ### Reuso e integração
 O sistema utilizará uma API do Google Maps para mostrar a localização da pizzaria visando facilitar a identificação da região em que se encontra a mesma
 Outra possível integração do sistema seria com o Pagseguro para fazer o pagamento dos pedidos feitos no sistema
 
 ### Informações
-Os dados que o sistema manipulará será dados básicos do usuário, e dados estáticos da pizzaria
+Os dados que o sistema irá manipular será dados básicos do usuário, e dados estáticos da pizzaria
 
 ### Não faz parte do escopo do projeto
 *Gerenciamento de cadastros*: Não será necessário visando a UX do usuário <br />
@@ -89,7 +89,7 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 
 ### Requisitos não funcionais
  - **RNF01**: `Desejável` - Site bonito e fluído
- - **RNF02**: `Essencial` - E-mail de confimação de pedido para o cliente
+ - **RNF02**: `Essencial` - E-mail de confirmação de pedido para o cliente
  - **RNF03**: `Importante` - Ter o site responsivo
  - **RNF04**: `Desejável` - Gerar pedido após pagamento
 
@@ -97,12 +97,12 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 
 ### Users stories(US)
 - `US1` - Como cliente José eu quero escolher os sabores e os adicionais para fazer meu pedido
-- `US2` - Como cliente José eu quero adicionar bebidas ao meu pedido para complementa-lo
+- `US2` - Como cliente José eu quero adicionar bebidas ao meu pedido para completar o meu pedido
 - `US3` - Como cliente José eu quero escolher a quantidade de pizzas e o sabor de cada uma delas para adicionar ao meu pedido
 - `US4` - Como cliente José eu quero informar meus dados para finalizar meu pedido
 - `US5` - Como cliente José eu quero escolher o tamanho da pizza para meu pedido
 - `US6` - Como cliente José eu quero escolher um combo e a quantidade de combos para iniciar meu pedido
-- `US7` - Como usuário Corleone eu gostaria de visualizar os pedidos pendentes para faze-los
+- `US7` - Como usuário Corleone eu gostaria de visualizar os pedidos pendentes
 
 ### Personas
 **Nome**: *Jose Santos* <br />
@@ -114,7 +114,7 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 **Cargo/ocupação**: *Professor e pesquisador* <br />
 **Quais são as responsabilidades da persona**: *Pedir uma pizza no site* <br />
 **Onde ele busca informações?** *Em livros, sites e revistas* <br />
-**Em quais redes sociais ele interage**: *Twiter* <br />
+**Em quais redes sociais ele interage**: *Twitter* <br />
 **Qual as dores da persona**: *Falta de tempo para cumprir com tarefas cotidianas*
 
 **Nome**: *Corleone Fabbri* <br />
@@ -127,7 +127,7 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 **Quais são as responsabilidades da persona**: *Preparar pizzas, dar baixa no sistema e entregar com o endereço para o motoboy* <br />
 **Onde ele busca informações?** *Internet* <br />
 **Em quais redes sociais ele interage**: *Facebook, Instagram* <br />
-**Qual as dores da persona**: *Problemas com a gestão de seu négocio que esta iniciando* <br />
+**Qual as dores da persona**: *Problemas com a gestão de seu négocio que está iniciando* <br />
 
 ### [Fluxograma de processos](/docs/fluxograma_processos.md)
 ### [Diagrama conceitual](/docs/diagrama_conceitual.md)
