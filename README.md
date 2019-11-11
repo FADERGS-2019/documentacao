@@ -129,6 +129,17 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 **Em quais redes sociais ele interage**: *Facebook, Instagram* <br />
 **Qual as dores da persona**: *Problemas com a gestão de seu négocio que está iniciando* <br />
 
+### Estratégia de Teste
+Testes funcionais foram realizados na aplicação para certificar que ela está apta a realizar as funções da qual foi desenvolvida para fazer.</br>
+
+Na parte do BackEnd da aplicação, foram realizados testes sobre a API, garantido que suas chamadas, e seus endpoints estão satisfazendo os requisitos técnicos e funcionais da aplicação. Os recursos foram testados de forma isolada, visando garantir a funcionalidade de cada recurso por si só.</br>
+
+No FrontEnd foram realizados testes integrados, para garantir os fluxos principais do seu início ao fim, de funcionamento da aplicação.
+
+##### Tecnologias utilizadas para teste:
+JavaScript, Ruby, Capybara, Postman, Cucumber e Gherkin.
+
+
 ### [Fluxograma de processos](/docs/fluxograma_processos.md)
 ### [Diagrama conceitual](/docs/diagrama_conceitual.md)
 
