@@ -139,7 +139,7 @@ No FrontEnd foram realizados testes integrados, para garantir os fluxos principa
 ##### Tecnologias utilizadas para teste:
 JavaScript, Ruby, Capybara, Postman, Cucumber e Gherkin.
 
-##### Gerência de Requisitos:
+### Gerência de Requisitos:
 
 ###### GRE1:
 O escopo do projeto foi definido em conjunto entre o PO e Analista de Sistemas e o time de desenvolvimento, visando atender as necessidades de uma Pizzaria que tem como necessidade atender seus clientes de forma online, em que a interação humana com o usuário seja necessária apenas no processo de entrega do pedido.
