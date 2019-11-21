@@ -139,6 +139,25 @@ No FrontEnd foram realizados testes integrados, para garantir os fluxos principa
 ##### Tecnologias utilizadas para teste:
 JavaScript, Ruby, Capybara, Postman, Cucumber e Gherkin.
 
+##### Gerência de Requisitos:
+
+**GRE1:
+
+O escopo do projeto foi definido em conjunto entre o PO e Analista de Sistemas e o time de desenvolvimento, visando atender as necessidades de uma Pizzaria que tem como necessidade atender seus clientes de forma online, em que a interação humana com o usuário seja necessária apenas no processo de entrega do pedido.
+
+**GRE2:
+
+Os requisitos foram avaliados levando em consideração o prazo para entrega do projeto e os recursos disponíveis para a equipe, a equipe se comprometeu levando em consideração sua disponibilidade de equipamentos, seu conhecimento nas tecnologias necessárias para o comprometimento da meta e sua curva de aprendizagem nas mesmas, assim fixando uma quantidade de requisitos plausíveis para o produto sem correr o risco de comprometer a qualidade do produto final.
+
+**GRE4:
+
+O projeto foi divido em pequenas entregas separadas por user stories, cada uma atende uma quantidade de requisitos pré-definidos. Essas user stories foram dividas pela equipe de desenvolvimento em Tarefas, quando todas as tarefas relacionadas a uma user storie eram concluídas, os testes relacionados eram executados e as regras de negócio e os requisitos eram dados como finalizados, ou tarefas de bug fix eram abertas e a user storie ficava definida como In Progress até a conclusão das correções necessárias, nessa etapa os requisitos são revistados e validados pelo Analista.
+
+**GRE5:
+
+Mudanças de requisitos técnicos podem ser levantadas pela equipe de desenvolvimento a qualquer momento, e a decisão de gerar novas Stories a partir delas ficam a cargo do Analista. Caso alguma regra de negócio seja alterada, o Analista precisa escrever novas Stories, e negociar com o time de desenvolvimento um momento para atendê-las.
+
+
 
 ### [Fluxograma de processos](/docs/fluxograma_processos.md)
 ### [Diagrama conceitual](/docs/diagrama_conceitual.md)
