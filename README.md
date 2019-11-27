@@ -59,7 +59,7 @@ A ferramenta possui características já experienciada pelo time e o conheciment
 Devido a alta demanda por processos informatizados a ferramenta se faz necessária tanto a organização quanto aos usuários
 
 ### Viabilidade técnica
-O time ja possui experiência nas áreas e o devido conhecimento necessário para trabalhar com a tecnologias utilizadas, que a principio serão HTML, CSS, JavaScript, C#, MySQL, PHP <br />
+O time ja possui experiência nas áreas e o devido conhecimento necessário para trabalhar com a tecnologias utilizadas, que a principio serão HTML, CSS, JavaScript, C#, MySQL, PHP, VueJS, Ruby, Capybara, Postman, Cucumber e Gherkin.  <br />
 Não há necessidade de gastos visando a baixa necessidade de recursos do sistema e a existência de tecnologias gratuitas que facilitam a conclusão da mesma
 
 ### Viabilidade de cronograma
@@ -129,33 +129,141 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 **Em quais redes sociais ele interage**: *Facebook, Instagram* <br />
 **Qual as dores da persona**: *Problemas com a gestão de seu négocio que está iniciando* <br />
 
-### Estratégia de Teste
+# Fluxograma de processos
+## O fluxo do sistema de resume da seguinte maneira<br />
+![Overview do fluxograma](/docs/images/fluxograma_processos.png)
+
+## Pedido
+### A primeira etapa do sistema é relacionada ao pedido<br />
+![Overview do geração do pedido](/docs/images/pedido.png)
+
+## Fazer Pedido <br />
+### Um pedido se resume em escolher o tamanho da pizza e os sabores<br />
+![Adicionar combo ao carrinho](/docs/images/fazer_pedido.png)
+
+## Gerenciar carrinho <br />
+### Após serem feitos os pedidos, os mesmos podem ser gerenciados no carrinho<br />
+![Adicionar pizza avulsa ao carrinho](/docs/images/gerenciar_carrinho.png)
+
+## Selecionar método de pagamento <br />
+### Após confirmação dos pedido deve ser feito a seleção da forma de pagamento <br />
+![Finalizar o pedido](/docs/images/selecionar_metodo_de_pagamento.png)
+
+## Enviar e-mail
+### Após a conclusão do pedido o sistema irá enviar um e-mail ao cliente<br />
+![Confirmação do pedido](/docs/images/enviar_email.png)
+
+## Gerenciar pedidos
+### Após a conclusão do pedido, o mesmo também irá ser adicionado ao portal do dono da pizzaria o permitindo remove-lo após a conclusão do mesmo<br />
+![Gerenciamento de pedido](/docs/images/gerenciar_pedido.png)
+
+# Modelo lógico
+![Adicionar combo ao carrinho](/docs/images/modelo_logico.png)
+
+# Modelo físico
+
+1. Cliente<br />
+
+| Nome do campo | Tipo de dados |
+| ---           | ---           |
+| id            | int           |
+| clientId      | int           |
+| nome          | string        |
+| cpf           | string        |
+| endereco      | string        |
+| telefone      | string        |
+| email         | varchar       |
+| ultimaCompra  | datetime      |
+| dataInclusao  | datetime      |
+| dataAlteracao | datetime      |
+| dataExclusão  | datetime      |
+| ativo         | bolean        |
+
+2. Pedido<br />
+
+| Nome do campo   | Tipo de dados |
+| ---             | ---           |
+| Id              | int           |
+| PedidoId        | int           |
+| cliente_Id      | int           |
+| DataInclusao    | datetime      |
+| DataAlteracao   | datetime      |
+| DataExclusao    | datetime      |
+| Ativo           | boolean       |
+| Status          | int           |
+| entrega_EntregaId | int         |
+| pagamento_PagamentoId | int     |
+
+3. Entrega<br />
+
+| Nome do campo   | Tipo de dados |
+| ---             | ---           |
+| EntregaId       | int           |
+| Cep             | string        |
+| Rua             | string        |
+| Numero          | string        |
+| Nome            | string        |
+| Email           | string        |
+| Telefone        | string        |
+| Complemento     | string        |
+
+4. Item<br />
+
+| Nome do campo   | Tipo de dados |
+| ---             | ---           |
+| ItemId          | int           |
+| Tipo            | decimal       |
+| Tamanho         | bigint        |
+| Borda           | bigint        |
+| Valor           | text          |
+| Sabor           | decimal       |
+| Pedido_Id       | bigint        |
+
+5. Sabores<br />
+
+| Nome do campo   | Tipo de dados |
+| ---             | ---           |
+| id              | int           |
+| Nome            | string        |
+| Quantidade      | int           |
+| Item_ItemId     | int           |
+
+6. Pagemento<br />
+
+| Nome do campo   | Tipo de dados |
+| ---             | ---           |
+| PagamentoId     | int           |
+| Total           | double        |
+| Tipo            | string        |
+| Bandeira        | string        |
+| Metodo          | string        |
+| troco           | double        |
+
+# Estratégia de Teste
 Testes funcionais foram realizados na aplicação para certificar que ela está apta a realizar as funções da qual foi desenvolvida para fazer.</br>
 
 Na parte do BackEnd da aplicação, foram realizados testes sobre a API, garantido que suas chamadas, e seus endpoints estão satisfazendo os requisitos técnicos e funcionais da aplicação. Os recursos foram testados de forma isolada, visando garantir a funcionalidade de cada recurso por si só.</br>
 
 No FrontEnd foram realizados testes integrados, para garantir os fluxos principais do seu início ao fim, de funcionamento da aplicação.
 
-##### Tecnologias utilizadas para teste:
+### Tecnologias utilizadas para teste:
 JavaScript, Ruby, Capybara, Postman, Cucumber e Gherkin.
 
-### Gerência de Requisitos:
+## Gerência de Requisitos:
 
-###### GRE1:
+### GRE1:
 O escopo do projeto foi definido em conjunto entre o PO e Analista de Sistemas e o time de desenvolvimento, visando atender as necessidades de uma Pizzaria que tem como necessidade atender seus clientes de forma online, em que a interação humana com o usuário seja necessária apenas no processo de entrega do pedido.
 
-###### GRE2:
+### GRE2:
 Os requisitos foram avaliados levando em consideração o prazo para entrega do projeto e os recursos disponíveis para a equipe, a equipe se comprometeu levando em consideração sua disponibilidade de equipamentos, seu conhecimento nas tecnologias necessárias para o comprometimento da meta e sua curva de aprendizagem nas mesmas, assim fixando uma quantidade de requisitos plausíveis para o produto sem correr o risco de comprometer a qualidade do produto final.
 
-###### GRE4:
+### GRE3:
+
+
+### GRE4:
 O projeto foi divido em pequenas entregas separadas por user stories, cada uma atende uma quantidade de requisitos pré-definidos. Essas user stories foram dividas pela equipe de desenvolvimento em Tarefas, quando todas as tarefas relacionadas a uma user storie eram concluídas, os testes relacionados eram executados e as regras de negócio e os requisitos eram dados como finalizados, ou tarefas de bug fix eram abertas e a user storie ficava definida como In Progress até a conclusão das correções necessárias, nessa etapa os requisitos são revistados e validados pelo Analista.
 
-###### GRE5:
+### GRE5:
 Mudanças de requisitos técnicos podem ser levantadas pela equipe de desenvolvimento a qualquer momento, e a decisão de gerar novas Stories a partir delas ficam a cargo do Analista. Caso alguma regra de negócio seja alterada, o Analista precisa escrever novas Stories, e negociar com o time de desenvolvimento um momento para atendê-las.
-
-
-
-### [Fluxograma de processos](/docs/fluxograma_processos.md)
-### [Diagrama conceitual](/docs/diagrama_conceitual.md)
 
 ### [Trello](https://trello.com/b/oLR8NrvE/esii)
