@@ -6,17 +6,16 @@ O sistema auxiliará na venda de pizzas e organização dos pedidos, agilizando 
 Criar um ambiente agradável e de fácil uso para o usuário evitando a necessidade de uma ligação para a pizzaria
 
 ### Necessidades
-É necessário um serviço de hospedagem com recursos básicos para o desenvolvimento e teste. O mesmo ambiente poderá ser usado para produção visto que a ferramenta possuíra um código pequeno e funcionalidades que não necessitam necessariamente de um banco de dados
+É necessário um serviço de hospedagem com recursos básicos para o desenvolvimento e teste. O mesmo ambiente poderá ser usado para produção visto que a ferramenta possuíra um código pequeno
 
 ### Restrições/limitações
 A ferramenta web não disponibilizará uma maneira de efetuar pagamentos online. Mediante este problema que caso viesse a ser uma real necessidade do sistema, utilizaremos uma API do Pagseguro como solução
 
 ### Reuso e integração
-O sistema utilizará uma API do Google Maps para mostrar a localização da pizzaria visando facilitar a identificação da região em que se encontra a mesma
-Outra possível integração do sistema seria com o Pagseguro para fazer o pagamento dos pedidos feitos no sistema
+O sistema utilizará um front-end que será integrado com o back-end através de uma API. Outra possível integração do sistema seria com o Pagseguro para fazer o pagamento dos pedidos feitos no sistema
 
 ### Informações
-Os dados que o sistema irá manipular será dados básicos do usuário, e dados estáticos da pizzaria
+Os dados que o sistema irá manipular serão dados básicos do usuário, e dados, em alguns momentos, estáticos
 
 ### Não faz parte do escopo do projeto
 *Gerenciamento de cadastros*: Não será necessário visando a UX do usuário <br />
@@ -68,41 +67,46 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 # Requisitos
 
 ### Requisitos funcionais
- - **RF01**: `Importante` - Escolher combos
- - **RF02**: `Importante` - Escolher quantidade de combos
- - **RF03**: `Importante` - Escolher sabores dos combos
- - **RF04**: `Importante` - Escolher adicionais para os combos
- - **RF05**: `Essencial` - Escolher quantidades de pizzas
- - **RF06**: `Essencial` - Escolher tamanho da pizza
- - **RF07**: `Essencial` - Escolher quantidade de sabores
- - **RF08**: `Essencial` - Escolher sabores da pizza
- - **RF09**: `Essencial` - Escolher adicionais da pizza
- - **RF10**: `Essencial` - Escolher quantidade de bebidas
- - **RF11**: `Essencial` - Escolher bebida
- - **RF12**: `Essencial` - Informar dados de pagamento
- - **RF13**: `Essencial` - Informar dados de entrega
- - **RF14**: `Desejável` - Efetuar pagamento
- - **RF15**: `Essencial` - Mostrar pedidos
- - **RF16**: `Essencial` - Mostrar dados da entrega
- - **RF17**: `Importante` - Remover pedido
-
+ - ~~**RF01**: `Importante` - Escolher combos~~ ***`Descartado`***
+ - ~~**RF02**: `Importante` -Escolher quantidade de combos~~ ***`Descartado`***
+ - ~~**RF03**: `Importante` -Escolher sabores dos combos~~ ***`Descartado`***
+ - ~~**RF04**: `Importante` -Escolher adicionais para os combos~~ ***`Descartado`***
+ - ~~**RF05**: `Essencial`  -Escolher quantidades de pizzas~~ ***`Descartado`***
+ -   **RF06**: `Essencial`  -Escolher tamanho da pizza
+ - ~~**RF07**: `Essencial`  -Escolher quantidade de sabores~~ ***`Descartado`***
+ -   **RF08**: `Essencial`  -Escolher sabores da pizza
+ - ~~**RF09**: `Essencial`  -Escolher adicionais da pizza~~ ***`Descartado`***
+ - ~~**RF10**: `Essencial`  -Escolher quantidade de bebidas~~ ***`Descartado`***
+ - ~~**RF11**: `Essencial`  -Escolher bebida~~ ***`Descartado`***
+ -   **RF12**: `Essencial`  -Informar dados de pagamento
+ -   **RF13**: `Essencial`  -Informar dados de entrega
+ - ~~**RF14**: `Desejável`  -Efetuar pagamento~~ ***`Descartado`***
+ -   **RF15**: `Essencial`  -Mostrar pedidos
+ -   **RF16**: `Essencial`  -Mostrar dados da entrega
+ - ~~**RF17**: `Importante` -Remover pedido~~ ***`Descartado`***
 
 ### Requisitos não funcionais
- - **RNF01**: `Desejável` - Site bonito e fluído
- - **RNF02**: `Essencial` - E-mail de confirmação de pedido para o cliente
- - **RNF03**: `Importante` - Ter o site responsivo
- - **RNF04**: `Desejável` - Gerar pedido após pagamento
+ -   **RNF01**: `Desejável`  - Site bonito
+ -   **RNF02**: `Essencial`  - E-mail de confirmação de pedido para o cliente
+ -   **RNF03**: `Importante` - Ter o site responsivo
+ -   **RNF04**: `Desejável`  - Gerar pedido após pagamento
+ - ~~**RNF05**: `Desejável`  - Site fluído~~ ***`Descartado`***
 
 # Users stories e Personas
 
 ### Users stories(US)
-- `US1` - Como cliente José eu quero escolher os sabores e os adicionais para fazer meu pedido
-- `US2` - Como cliente José eu quero adicionar bebidas ao meu pedido para completar o meu pedido
-- `US3` - Como cliente José eu quero escolher a quantidade de pizzas e o sabor de cada uma delas para adicionar ao meu pedido
-- `US4` - Como cliente José eu quero informar meus dados para finalizar meu pedido
-- `US5` - Como cliente José eu quero escolher o tamanho da pizza para meu pedido
-- `US6` - Como cliente José eu quero escolher um combo e a quantidade de combos para iniciar meu pedido
-- `US7` - Como usuário Corleone eu gostaria de visualizar os pedidos pendentes
+- ~~`US1` - Como cliente José eu quero escolher entre combo ou pizza avulsa para iniciar meu pedido~~ ***`Descartado`***
+- ~~`US2` - Como cliente José eu quero escolher a quantidade de pizzas para dar continuidade ao meu pedido~~ ***`Descartado`***
+- `US3` - Como cliente José eu quero escolher o tamanho da pizza para dar continuidade ao meu pedido
+- ~~`US4` - Como cliente José eu quero escolher a quantidade de sabores da pizza para meu pedido~~ ***`Descartado`***
+- `US5` - Como cliente José eu quero escolher os sabores da pizza para dar continuidade ao meu pedido
+- ~~`US6` - Como cliente José eu quero escolher os adicionais da pizza para dar continuidade ao meu pedido~~ ***`Descartado`***
+- ~~`US7` - Como cliente José eu quero adicionar bebidas para dar continuidade ao meu pedido~~ ***`Descartado`***
+- ~~`US8` - Como cliente José eu quero escolher um combo para dar continuidade ao meu pedido~~ ***`Descartado`***
+- ~~`US9` - Como cliente José eu quero escolher a quantidade de combos para iniciar meu pedido~~ ***`Descartado`***
+- `US10` - Como cliente José eu quero informar meus dados para finalizar meu pedido
+- `US11` - Como usuário Corleone eu gostaria de visualizar os pedidos pendentes
+- ~~`US12` - Como usuário Corleone eu gostaria de remover os pedidos concluídos~~ ***`Descartado`***
 
 ### Personas
 **Nome**: *Jose Santos* <br />
@@ -265,5 +269,3 @@ O projeto foi divido em pequenas entregas separadas por user stories, cada uma a
 
 ### GRE5:
 Mudanças de requisitos técnicos podem ser levantadas pela equipe de desenvolvimento a qualquer momento, e a decisão de gerar novas Stories a partir delas ficam a cargo do Analista. Caso alguma regra de negócio seja alterada, o Analista precisa escrever novas Stories, e negociar com o time de desenvolvimento um momento para atendê-las.
-
-### [Trello](https://trello.com/b/oLR8NrvE/esii)

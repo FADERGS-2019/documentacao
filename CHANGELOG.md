@@ -13,6 +13,12 @@ e este projeto segue o [Semantic Versioning](https://semver.org/spec/v2.0.0.html
 - Fluxograma de processos
 - Modelo lógico
 - Modelo físico
+- Necessidades
+- Restrições/limitações
+- Reuso e integração
+- Requisitos funcionais
+- Requisitos não funcionais
+- Users stories(US)
 
 ### Removed
 - Diagrama conceitual
