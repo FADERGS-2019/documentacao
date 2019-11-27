@@ -259,13 +259,20 @@ JavaScript, Ruby, Capybara, Postman, Cucumber e Gherkin.
 O escopo do projeto foi definido em conjunto entre o PO e Analista de Sistemas e o time de desenvolvimento, visando atender as necessidades de uma Pizzaria que tem como necessidade atender seus clientes de forma online, em que a interação humana com o usuário seja necessária apenas no processo de entrega do pedido.
 
 ### GRE2:
-Os requisitos foram avaliados levando em consideração o prazo para entrega do projeto e os recursos disponíveis para a equipe, a equipe se comprometeu levando em consideração sua disponibilidade de equipamentos, seu conhecimento nas tecnologias necessárias para o comprometimento da meta e sua curva de aprendizagem nas mesmas, assim fixando uma quantidade de requisitos plausíveis para o produto sem correr o risco de comprometer a qualidade do produto final.
+Os requisitos foram avaliados levando em consideração o prazo para entrega do projeto e os recursos disponíveis para a equipe, a equipe se comprometeu levando em consideração sua disponibilidade de equipamentos, seu conhecimento nas tecnologias necessárias para o atendimento da meta e sua curva de aprendizagem nas mesmas, assim fixando uma quantidade de requisitos plausíveis para o produto sem correr o risco de comprometer a qualidade do produto final.
 
 ### GRE3:
+A rastreabilidade entre os requisitos e o produto de trabalho foi definida da seguinte forma:
+
+*	Épico – Maior requisito, consiste no fluxo completo da aplicação e na funcionalidade completa. É alcançado assim que o desenvolvimento do produto é dado como concluído.
+*	User Stories – Funcionalidades menores que compõem um épico, são feitas pensando nas interações do usuário com o sistema. Visam atender uma quantidade menor de requisitos que são atingíveis em uma Sprint de trabalho.
+*	Tasks – Tarefas realizadas pela equipe, são de responsabilidade do time de desenvolvimento, estão relacionadas ao atendimento das User Stories e fazem relação com as atividades que estão sendo trabalhadas.
+
+O andamento do trabalho é exposto em um Board, de fácil visualização, facilitando a análise do andamento do trabalho, e dando uma visão constante ao time sobre as tarefas que estão em atraso.
 
 
 ### GRE4:
-O projeto foi divido em pequenas entregas separadas por user stories, cada uma atende uma quantidade de requisitos pré-definidos. Essas user stories foram dividas pela equipe de desenvolvimento em Tarefas, quando todas as tarefas relacionadas a uma user storie eram concluídas, os testes relacionados eram executados e as regras de negócio e os requisitos eram dados como finalizados, ou tarefas de bug fix eram abertas e a user storie ficava definida como In Progress até a conclusão das correções necessárias, nessa etapa os requisitos são revistados e validados pelo Analista.
+O projeto foi divido em pequenas entregas separadas por user stories, cada uma atende uma quantidade de requisitos pré-definidos. Essas user stories foram dividas pela equipe de desenvolvimento em Tarefas, quando todas as tarefas relacionadas a uma user storie eram concluídas, os testes relacionados eram executados e as regras de negócio e os requisitos eram dados como finalizados, ou tarefas de bug fix eram abertas e a user storie ficava definida como In Progress até a conclusão das correções necessárias, após essa etapa os requisitos são revistados e validados pelo Analista.
 
 ### GRE5:
 Mudanças de requisitos técnicos podem ser levantadas pela equipe de desenvolvimento a qualquer momento, e a decisão de gerar novas Stories a partir delas ficam a cargo do Analista. Caso alguma regra de negócio seja alterada, o Analista precisa escrever novas Stories, e negociar com o time de desenvolvimento um momento para atendê-las.
