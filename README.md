@@ -58,7 +58,7 @@ A ferramenta possui características já experienciada pelo time e o conheciment
 Devido a alta demanda por processos informatizados a ferramenta se faz necessária tanto a organização quanto aos usuários
 
 ### Viabilidade técnica
-O time ja possui experiência nas áreas e o devido conhecimento necessário para trabalhar com a tecnologias utilizadas, que a principio serão HTML, CSS, JavaScript, C#, MySQL, PHP, VueJS, Ruby, Capybara, Postman, Cucumber e Gherkin.  <br />
+O time ja possui experiência nas áreas e o devido conhecimento necessário para trabalhar com as tecnologias Vue (HTML, CSS, Javascript) e Node (Express), C# (ASP.NET e Entity Framework) e SQL Server, Ruby, Capybara, rspec, selenium-webdriver , Postman, chromedriver-helper, Cucumber e Gherkin  <br />
 Não há necessidade de gastos visando a baixa necessidade de recursos do sistema e a existência de tecnologias gratuitas que facilitam a conclusão da mesma
 
 ### Viabilidade de cronograma
@@ -68,22 +68,22 @@ Dado os requisitos levantados e a ampla possibilidade de adequações sistema pa
 
 ### Requisitos funcionais
  - ~~**RF01**: `Importante` - Escolher combos~~ ***`Descartado`***
- - ~~**RF02**: `Importante` -Escolher quantidade de combos~~ ***`Descartado`***
- - ~~**RF03**: `Importante` -Escolher sabores dos combos~~ ***`Descartado`***
- - ~~**RF04**: `Importante` -Escolher adicionais para os combos~~ ***`Descartado`***
- - ~~**RF05**: `Essencial`  -Escolher quantidades de pizzas~~ ***`Descartado`***
- -   **RF06**: `Essencial`  -Escolher tamanho da pizza
- - ~~**RF07**: `Essencial`  -Escolher quantidade de sabores~~ ***`Descartado`***
- -   **RF08**: `Essencial`  -Escolher sabores da pizza
- - ~~**RF09**: `Essencial`  -Escolher adicionais da pizza~~ ***`Descartado`***
- - ~~**RF10**: `Essencial`  -Escolher quantidade de bebidas~~ ***`Descartado`***
- - ~~**RF11**: `Essencial`  -Escolher bebida~~ ***`Descartado`***
- -   **RF12**: `Essencial`  -Informar dados de pagamento
- -   **RF13**: `Essencial`  -Informar dados de entrega
- - ~~**RF14**: `Desejável`  -Efetuar pagamento~~ ***`Descartado`***
- -   **RF15**: `Essencial`  -Mostrar pedidos
- -   **RF16**: `Essencial`  -Mostrar dados da entrega
- - ~~**RF17**: `Importante` -Remover pedido~~ ***`Descartado`***
+ - ~~**RF02**: `Importante` - Escolher quantidade de combos~~ ***`Descartado`***
+ - ~~**RF03**: `Importante` - Escolher sabores dos combos~~ ***`Descartado`***
+ - ~~**RF04**: `Importante` - Escolher adicionais para os combos~~ ***`Descartado`***
+ - ~~**RF05**: `Essencial`  - Escolher quantidades de pizzas~~ ***`Descartado`***
+ -   **RF06**: `Essencial`  - Escolher tamanho da pizza
+ - ~~**RF07**: `Essencial`  - Escolher quantidade de sabores~~ ***`Descartado`***
+ -   **RF08**: `Essencial`  - Escolher sabores da pizza
+ - ~~**RF09**: `Essencial`  - Escolher adicionais da pizza~~ ***`Descartado`***
+ - ~~**RF10**: `Essencial`  - Escolher quantidade de bebidas~~ ***`Descartado`***
+ - ~~**RF11**: `Essencial`  - Escolher bebida~~ ***`Descartado`***
+ -   **RF12**: `Essencial`  - Informar dados de pagamento
+ -   **RF13**: `Essencial`  - Informar dados de entrega
+ - ~~**RF14**: `Desejável`  - Efetuar pagamento~~ ***`Descartado`***
+ -   **RF15**: `Essencial`  - Mostrar pedidos
+ -   **RF16**: `Essencial`  - Mostrar dados da entrega
+ - ~~**RF17**: `Importante` - Remover pedido~~ ***`Descartado`***
 
 ### Requisitos não funcionais
  -   **RNF01**: `Desejável`  - Site bonito
